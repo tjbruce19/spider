@@ -15,14 +15,6 @@ class UrlSpider():
         self.main_url = "https://music.163.com"
         self.proxy_dic = self.spider_proxy._get_proxy_from_pool()
 
-    def add(self,a, **kwargs):
-        print("======123========")
-        print(a)
-        # print(args)
-        print(kwargs)
-        print("======321=======")
-        return a
-
     def get_playlist_cat(self):
         """
         spide play-list page
